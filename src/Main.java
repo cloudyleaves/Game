@@ -27,10 +27,7 @@ public class Main
         one.getLevel(3).reachGoal();
         one.getLevel(3).setPoints(500);
         System.out.println(three.getScore());
-    }
-    public void play()
-    {
-        System.out.println("Enter points");
-
+        Game five = new Game();
+        System.out.println(five.playManyTimes(4));
     }
 }
